@@ -1,7 +1,11 @@
-# Timezone by Host IP Address
+# Timezone by Host IP Address 
 
 Composer package that will return the current time in the server's time zone. Based on the server's IP. 
 
+Please use carefully.
+
+Publish to packagist is useless, because project not ready for community standards:
+But possible to use as vcs dependency, please check: https://getcomposer.org/doc/05-repositories.md#vcs
 
 Please refer source of .bin/example.php
 
