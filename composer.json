@@ -1,0 +1,27 @@
+{
+    "name": "dev/iptime",
+    "description": "Current timezone based on IP address",
+    "type": "library",
+    "version": "0.0.1",
+    "keywords": [
+        "time",
+        "timezone",
+        "ip address"
+    ],
+    "homepage": "http://localhost",
+    "license": "OSL",
+    "require": {
+        "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    },
+    "scripts": {
+    },
+    "autoload": {
+        "psr-4": {
+            "IpTime\\": "src/IpTime"
+        }
+    }
+}
